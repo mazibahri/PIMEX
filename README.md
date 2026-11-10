@@ -31,6 +31,7 @@ The entries below describe planned modules. Repository names are provisional; li
 | Ground | Predict ground displacement, stress, and strain | `PIMEX-Ground` | To be added |
 | Tunnel lining | Predict lining deformation and internal forces | `PIMEX-Lining` | To be added |
 | Coupled ground–lining | Connect ground and lining models through interface conditions | `PIMEX-Coupled` | To be added |
+| Coupled ground–lining, elastic benchmark | Linear elastic ground + bonded lining PINN, forward and inverse, checked against PLAXIS 2D | in this repository | [`coupled_PINN_Elastic`](coupled_PINN_Elastic/) |
 
 Further model repositories will be added as the framework develops. Each repository will document its assumptions, inputs and outputs, governing equations, setup, and validation.
 
